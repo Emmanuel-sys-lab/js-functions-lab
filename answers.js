@@ -22,18 +22,28 @@ function makeOpposite(num) {
 }
 console.log(makeOpposite(3));
 // Question 5
-function logEvenNumbers(num) {
- if (num % 2 === 0){
-    return num ;
+function logEvenNumbers() {
+ for (let i = 0; i <= 50; i++){
+   if (i % 2 === 0){
+      console.log(i);
+   }
  }
+ return `Why is 6 afraid of 7?`;
 }
-console.log(logEvenNumbers(10))
+console.log(logEvenNumbers());
 
 // Question 6
-function sumFoursAndSevens() {
+function sumFoursAndSevens(num) {
   // Write your code here
+  let sum = 0;
+  for (let i = 0; i <= num; i ++) {
+    if(i%4 === 0 || i%7=== 0){
+    sum = sum + i;
+    }
+  }
+  return sum;
 }
-
+console.log(sumFoursAndSevens(21));
 // Question 7
 function exsAndOhs() {
   // Write your code here
