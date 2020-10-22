@@ -22,9 +22,12 @@ function makeOpposite(num) {
 }
 console.log(makeOpposite(3));
 // Question 5
-function logEvenNumbers() {
-  // Write your code here
+function logEvenNumbers(num) {
+ if (num % 2 === 0){
+    return num ;
+ }
 }
+console.log(logEvenNumbers(10))
 
 // Question 6
 function sumFoursAndSevens() {
