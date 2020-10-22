@@ -1,6 +1,6 @@
 // Question 1
 function hello() {
-  // Write your code here
+  
 }
 
 // Question 2
