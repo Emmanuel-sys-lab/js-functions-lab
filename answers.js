@@ -10,10 +10,11 @@ function findProduct(num1, num2) {
 }
  console.log(findProduct(5,10));
 // Question 3
-function getSquare() {
+function getSquare(num) {
   //Write your code here
+  return num*num;
 }
-
+console.log(getSquare(2));
 // Question 4
 function makeOpposite() {
   //Write your code here
