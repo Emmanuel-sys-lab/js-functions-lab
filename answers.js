@@ -45,9 +45,19 @@ function sumFoursAndSevens(num) {
 }
 console.log(sumFoursAndSevens(21));
 // Question 7
-function exsAndOhs() {
+function exsAndOhs(num) { 
+  let ex="X"; let Oh="O"; let str="";
+  for (let i=1;i <=num; i++) { 
+    if (i%2==0){
+      str=str+Oh;
+      } else {
+        str=str+ex;
+      } 
+    
+  } 
+  return str;
   // Write your code here
-}
+} console.log(exsAndOhs(3));
 
 // Do NOT touch or write anything below this line
 module.exports = {
