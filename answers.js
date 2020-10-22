@@ -1,8 +1,9 @@
 // Question 1
-function hello() {
-  // Write your code here
+function hello(name) {
+ return`Hello, ${name}!`;
+  
 }
-
+  console.log(hello ("Emmanuel"))
 // Question 2
 function findProduct() {
   // Write your code here
