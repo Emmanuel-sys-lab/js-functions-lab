@@ -16,10 +16,11 @@ function getSquare(num) {
 }
 console.log(getSquare(2));
 // Question 4
-function makeOpposite() {
+function makeOpposite(num) {
+  return -num;
   //Write your code here
 }
-
+console.log(makeOpposite(3));
 // Question 5
 function logEvenNumbers() {
   // Write your code here
